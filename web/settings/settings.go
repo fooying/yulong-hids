@@ -4,7 +4,10 @@ import "gopkg.in/mgo.v2/bson"
 
 var (
 	// Version 版本号
-	Version = "v0.3.1 BETA"
+	Version = "v0.4.4 BETA"
+
+	// TFAPassHistorys 双因子验证密码历史, 永远只接受6个历史
+	TFAPassHistorys = []uint32{0, 0, 0, 0, 0, 0}
 
 	// SystemArray System参数白名单
 	SystemArray = []string{"linux", "windows"}

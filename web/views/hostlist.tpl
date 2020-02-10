@@ -9,6 +9,7 @@
     </div>
     <div class="command col-md-12" ng-show="command_show">
       <h3>安装命令：</h3>
+      <p class="red"><i class="fa fa-warning" aria-hidden="true"></i>注意(WARNING)：驭龙是一个安全HIDS系统，其Agent在安装和使用的过程中会hook系统内核，<b>请勿未做调研和实验就直接在生产环境或重要主机上安装Agent。</b></p>
       <li ng-repeat="(cmd_index, cmd) in command_list">
           <span class="highlight">{{ cmd_index }}</span> : {{ cmd }}
       </li>
@@ -52,7 +53,7 @@
     </div>
 
     <button class="icon append-icon" id="addbutton" ng-click="toggle_command()">
-        <i class="fa fa-plus" aria-hidden="true" title="添加过滤器"></i>
+        <i class="fa fa-plus" aria-hidden="true" title="显示或隐藏安装命令"></i>
     </button>
 
     <button class="icon append-icon" id="searchbutton" ng-click="add_filter()">

@@ -4,6 +4,7 @@
 [![License](https://img.shields.io/badge/License-GPL%20v2-blue.svg?style=flat-square)](https://github.com/ysrc/yulong-hids/blob/master/LICENSE)
 [![Golang](https://img.shields.io/badge/Golang-1.9-yellow.svg?style=flat-square)](https://www.golang.org/) [![Mongodb](https://img.shields.io/badge/MongoDB-3.4-red.svg?style=flat-square)](https://www.mongodb.com/download-center?jmp=nav) [![elasticsearch](https://img.shields.io/badge/Elasticsearch-5.6.4-green.svg?style=flat-square)](https://www.elastic.co/downloads/elasticsearch)
 
+`由于此项目缺少维护，建议仅用于参考学习和二次开发`
 
 **驭龙HIDS**是一款由 YSRC 开源的入侵检测系统，由 `Agent`， `Daemon`， `Server` 和 `Web` 四个部分组成，集异常检测、监控管理为一体，拥有异常行为发现、快速阻断、高级分析等功能，可从多个维度行为信息中发现入侵行为。
 
@@ -16,9 +17,11 @@
 ## 文档
 
 * [部署文档](./docs/install.md)
+* [Docker快速体验部署文档](./docs/docker.md)
 * [使用帮助](./docs/help.md)
 * [规则编写](./docs/rule.md)
 * [编译指南](./docs/build.md)
+* [Web安装向导指南](./docs/guide.md)
 * [Q&A](./qa.md)
 
 ## 功能特点
